@@ -25,13 +25,9 @@
               }
             ],
             "styles": [
-              "src/styles.css"
-            ],
-            "server": "src/main.server.ts",
-            "outputMode": "server",
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ]
           },
           "configurations": {
             "production": {
@@ -87,11 +83,15 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "926e3e00-4d9c-4d45-81f1-6e7d1db35da1"
   }
 }
